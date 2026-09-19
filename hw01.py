@@ -88,7 +88,7 @@ print("Part 2: result =", result2)
 a = 100 #treats
 b=13 #dogs
 
-#math &print
+#math & print
 result3 = a//b
 print("Part 3: a =",a)
 print("Part 3: b =",b)
@@ -99,7 +99,10 @@ print("Part 3: result =",result3)
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
+#math & print
+result4 = a%b
 
+print("Part 4: result =", result4)
     # End of Part 4 ----------------------
 
 if __name__ == "__main__":
