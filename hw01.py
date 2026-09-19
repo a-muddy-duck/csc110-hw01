@@ -58,15 +58,25 @@ result1 = ((3*x) - (9*y))/((2*a)*(b-c))
 
 # print results
 for loopvariable in[f"x = {x}", f"y = {y}", f"a = {a}", f"b = {b}", f"c = {c}", f"result = {result1}"]:
-    print("Part 1: ", loopvariable)
+    print("Part 1:", loopvariable)
     
-    # End of Part 1 ---------------------- don't forget to add and commit this file after part 1
+    # End of Part 1 ---------------------- 
 
 
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
+# overwrite variables
+x =5
+y= -3
 
+# do math
+result2 = x**2*y**4
+
+#print results
+print("Part 2: x =", x)
+print("Part 2: y =", y)
+print("Part 2: result =", result2)
     # End of Part 2 ---------------------- don't forget to add and commit after part 2
 
 
