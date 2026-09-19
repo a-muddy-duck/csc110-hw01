@@ -1,7 +1,7 @@
 # ------------------------------------------------------
-#        Name: (put your name here)
+#        Name: Ash Rulifson
 #       Peers: (add any collaborators)
-#  References: (anything you checked to solve this)
+#  References: Textbook (How to Think Like a Computer Scientist)
 # ------------------------------------------------------
 
 
@@ -25,6 +25,7 @@ def main():
     RETURNS:
         - None. If the function returned something (like the integer half of num),
                 we would indicate it like this: int : integer half of num
+        to test code: run in command prompt (within wd hw01): python -m pytest -v -s
     """
 
     # ========== Setup for HW. DO NOT MODIFY ======
@@ -45,15 +46,28 @@ def main():
     # Part 1: Basic Operations
     # =============================================
     # Your code for part 1 under this line and before the print statements
+# reassign variables
+x = 27
+y = 1
+a=1.5
+b=7
+c=-1
 
-    # End of Part 1 ----------------------
+# write math for result1
+result1 = ((3*x) - (9*y))/((2*a)*(b-c))
+
+# print results
+for loopvariable in[f"x = {x}", f"y = {y}", f"a = {a}", f"b = {b}", f"c = {c}", f"result = {result1}"]:
+    print("Part 1: ", loopvariable)
+    
+    # End of Part 1 ---------------------- don't forget to add and commit this file after part 1
 
 
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
 
-    # End of Part 2 ----------------------
+    # End of Part 2 ---------------------- don't forget to add and commit after part 2
 
 
 
